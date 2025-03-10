@@ -24,7 +24,7 @@
 <body class="bg-white flex items-center justify-center min-h-screen p-4">
 <div class="w-full max-w-sm p-8 space-y-6 rounded-lg shadow-lg bg-white">
     <div class="flex justify-center">
-        <img src="{{ asset('logo.png') }}" alt="Logo" class="w-full mb-4">
+        <img src="{{ asset('logo.png') }}" alt="Logo" class="w-full mb-1">
     </div>
     <h2 class="text-2xl font-bold text-center text-black kamoa-title">Kamoa Copper SA</h2>
     <p class="text-center text-gray-700">Usawa Timesheet</p>
