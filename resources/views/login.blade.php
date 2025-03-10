@@ -26,13 +26,13 @@
     <div class="flex justify-center">
         <img src="path/to/logo.png" alt="Logo" class="w-24 h-24 mb-4">
     </div>
-    <h2 class="text-2xl font-bold text-center text-black kamoa-title">Login to your account</h2>
-    <p class="text-center text-gray-700">Hello, welcome back to your account</p>
+    <h2 class="text-2xl font-bold text-center text-black kamoa-title">Kamoa Copper SA</h2>
+    <p class="text-center text-gray-700">Usawa Timesheet</p>
 
     <form action="#" method="POST" class="space-y-4">
         <div>
-            <label for="email" class="block text-sm font-medium text-black">E-mail</label>
-            <input type="email" id="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-red-500 focus:border-red-500" placeholder="example@email.com">
+            <label for="email" class="block text-sm font-medium text-black">Employee ID</label>
+            <input type="email" id="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-red-500 focus:border-red-500" placeholder="Employee ID">
         </div>
         <div>
             <label for="password" class="block text-sm font-medium text-black">Password</label>
@@ -48,20 +48,20 @@
         <button type="submit" class="w-full py-2 px-4 bg-red-600 text-white rounded-md hover:bg-red-500">Login</button>
     </form>
 
-    <div class="flex flex-col items-center mt-4">
-        <p class="text-sm text-gray-500">or sign up with</p>
-        <div class="flex space-x-4 mt-2">
-            <button class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full">
-                <img src="path/to/facebook-icon.svg" alt="Facebook" class="w-6 h-6">
-            </button>
-            <button class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full">
-                <img src="path/to/google-icon.svg" alt="Google" class="w-6 h-6">
-            </button>
-            <button class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full">
-                <img src="path/to/apple-icon.svg" alt="Apple" class="w-6 h-6">
-            </button>
-        </div>
-    </div>
+{{--    <div class="flex flex-col items-center mt-4">--}}
+{{--        <p class="text-sm text-gray-500">or sign up with</p>--}}
+{{--        <div class="flex space-x-4 mt-2">--}}
+{{--            <button class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full">--}}
+{{--                <img src="path/to/facebook-icon.svg" alt="Facebook" class="w-6 h-6">--}}
+{{--            </button>--}}
+{{--            <button class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full">--}}
+{{--                <img src="path/to/google-icon.svg" alt="Google" class="w-6 h-6">--}}
+{{--            </button>--}}
+{{--            <button class="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full">--}}
+{{--                <img src="path/to/apple-icon.svg" alt="Apple" class="w-6 h-6">--}}
+{{--            </button>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 </div>
 </body>
 </html>
